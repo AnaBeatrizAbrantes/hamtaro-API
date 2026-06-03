@@ -1,7 +1,5 @@
-// URL da API
-const API_URL = "https://hamtaro-api-page.vercel.app/demo";
+const API_URL = "https://api.jsonsilo.com/public/4cb1b09b-6bda-4ca5-983e-908c87fdf317";
 
-// Função assíncrona para buscar os dados
 async function fetchHamsters() {
     const container = document.getElementById('hamtaro-container');
     
