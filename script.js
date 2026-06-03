@@ -1,4 +1,4 @@
-const API_URL = "";
+const API_URL = "https://hamtaro-restapi.vercel.app/characters/list";
 
 async function fetchHamsters() {
     const container = document.getElementById('hamtaro-container');
@@ -16,10 +16,11 @@ async function fetchHamsters() {
             const card = document.createElement('div');
             card.classList.add('hamtaro-card');
 
+            // Usando as propriedades exatas da sua API: hamster.image e hamster.description
             card.innerHTML = `
-                <img src="${hamster.img}" alt="${hamster.name}">
+                <img src="${hamster.image}" alt="${hamster.name}">
                 <h2>${hamster.name}</h2>
-                <p>${hamster.desc}</p>
+                <p>${hamster.description}</p>
             `;
 
             container.appendChild(card);
