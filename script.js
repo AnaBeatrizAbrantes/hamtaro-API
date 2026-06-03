@@ -16,7 +16,6 @@ async function fetchHamsters() {
             const card = document.createElement('div');
             card.classList.add('hamtaro-card');
 
-            // Usando as propriedades exatas da sua API: hamster.image e hamster.description
             card.innerHTML = `
                 <img src="${hamster.image}" alt="${hamster.name}">
                 <h2>${hamster.name}</h2>
