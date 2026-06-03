@@ -1,4 +1,4 @@
-const API_URL = "https://api.jsonsilo.com/public/4cb1b09b-6bda-4ca5-983e-908c87fdf317";
+const API_URL = "";
 
 async function fetchHamsters() {
     const container = document.getElementById('hamtaro-container');
