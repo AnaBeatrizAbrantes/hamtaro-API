@@ -1,9 +1,9 @@
-# Hamtaro World
+# Hamtaro API
 
 <p align="center">
   A responsive, and dynamic web application that fetches and displays characters from the Hamtaro universe using an external API.
 </p>
----
+
 
 ##  Project Overview
 
