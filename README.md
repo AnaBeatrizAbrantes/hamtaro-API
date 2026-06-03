@@ -29,7 +29,7 @@ The interface features a cozy, pastel-toned visual identity designed completely 
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 ├── index.html     # Application structure & DOM mounting point
