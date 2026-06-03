@@ -4,6 +4,11 @@
   A responsive, and dynamic web application that fetches and displays characters from the Hamtaro universe using an external API.
 </p>
 
+<p align="center">
+  <a href="https://anabeatrizabrantes.github.io/hamtaro-API/" target="_blank">
+    <img src="https://img.shields.io/badge/🔗_Live_Demo-Click_Here-ff7b7b?style=for-the-badge&logoColor=white" alt="Live Demo"/>
+  </a>
+</p>
 
 ##  Project Overview
 
